@@ -1,8 +1,8 @@
 {
-  "name": "npm-paper-wallet",
+  "name": "@CryptoLover705/npm-paper-wallet-updated",
   "version": "1.0.8",
   "description": "Generate paper wallet for bitcoin and altcoins with CLI.",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
