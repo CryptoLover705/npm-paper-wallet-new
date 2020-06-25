@@ -1,6 +1,6 @@
 {
-  "name": "paper-wallet",
-  "version": "1.0.6",
+  "name": "npm-paper-wallet",
+  "version": "1.0.8",
   "description": "Generate paper wallet for bitcoin and altcoins with CLI.",
   "main": "index.js",
   "bin": "index.js",
@@ -9,6 +9,7 @@
   },
   "keywords": [
     "Paper Wallet",
+    "Astracoin",
     "Bitcoin",
     "Bitcoin Cash",
     "Bitcoin Gold",
@@ -23,6 +24,7 @@
     "Qtum",
     "Reddcoin",
     "Zcash",
+    "TR3B",
     "BTC",
     "BCH",
     "BTG",
@@ -42,13 +44,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/harietqyun/paper-wallet.git"
+    "url": "git+ssh://github.com/CryptoLover705/npm-paper-wallet.git"
   },
   "bugs": {
-    "url": "https://github.com/harietqyun/paper-wallet/issues"
+    "url": "https://github.com/CryptoLover705/npm-paper-wallet/issues"
   },
-  "homepage": "https://harietqyun.github.io/paper-wallet/",
-  "author": "harietqyun",
+  "homepage": "https://CryptoLover705.github.io/npr-paper-wallet/",
+  "author": "CryptoLover705",
   "license": "MIT",
   "dependencies": {
     "bchaddrjs": "^0.2.2",
