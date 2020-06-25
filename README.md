@@ -1,6 +1,6 @@
 # paper-wallet
 
-[![NPM version][npm-image]][npm-url][![Dependency Status](https://img.shields.io/david/CryptoLover705/npm-paper-wallet-updated.svg?style=flat-square)](https://david-dm.org/CryptoLover705/npm-paper-wallet-updated)[![Downloads][downloads-image]][downloads-url]
+[![NPM version][npm-image]][npm-url][![Dependency Status](https://david-dm.org/CryptoLover705/npm-paper-wallet-updated.svg?style=flat-square)](https://david-dm.org/CryptoLover705/npm-paper-wallet-updated)[![Downloads][downloads-image]][downloads-url]
 
 [npm-image]: https://img.shields.io/npm/v/paper-wallet.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/paper-wallet
