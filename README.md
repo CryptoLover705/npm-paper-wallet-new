@@ -1,11 +1,11 @@
 # paper-wallet
 
-[![NPM version][npm-image]][npm-url][![Dependency Status](https://david-dm.org/CryptoLover705/npm-paper-wallet-updated.svg?style=flat-square)](https://david-dm.org/CryptoLover705/npm-paper-wallet-updated)[![Downloads][downloads-image]][downloads-url]
+[![NPM version][npm-image]][npm-url][![Dependency Status](https://david-dm.org/CryptoLover705/npm-paper-wallet-new.svg?style=flat-square)](https://david-dm.org/CryptoLover705/npm-paper-wallet-new)[![Downloads][downloads-image]][downloads-url]
 
-[npm-image]: https://img.shields.io/npm/v/npm-paper-wallet-updated.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/npm-paper-wallet-updated
-[downloads-image]: https://img.shields.io/npm/dm/npm-paper-wallet-updated.svg?style=flat-square
-[downloads-url]: https://www.npmjs.com/package/npm-paper-wallet-updated
+[npm-image]: https://img.shields.io/npm/v/npm-paper-wallet-new.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/npm-paper-wallet-new
+[downloads-image]: https://img.shields.io/npm/dm/npm-paper-wallet-new.svg?style=flat-square
+[downloads-url]: https://www.npmjs.com/package/npm-paper-wallet-new
 
 Generate paper wallet for bitcoin and altcoins with CLI.
 
@@ -53,7 +53,7 @@ It's recommended to use an air-gapped computer for high value paper wallet gener
 
 ## Preview
 
-![alt text](https://raw.githubusercontent.com/CryptoLover705npm-paper-wallet-updated/master/preview.png)
+![alt text](https://raw.githubusercontent.com/CryptoLover705npm-paper-wallet-new/master/preview.png)
 
 ### Donation Addresses
 * MCO - `0x50542A52B2d01c807dd18e8CD7Ee1d3a2670329b` 
