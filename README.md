@@ -29,7 +29,7 @@ Generate paper wallet for bitcoin and altcoins with CLI.
 
 ## Installation
 ```bash
-npm install -g paper-wallet
+npm install -g @cryptolover705/npm-paper-wallet-new@1.0.0
 ```
 
 ## Usage
