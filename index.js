@@ -6,6 +6,7 @@ var qrImg = require('qr-image');
 var qrText = require('text-qrcode');
 var temp = require('temp');
 var crypto = require('crypto');
+var tr3b = require('./coins/tr3b.js');
 var btc = require('./coins/btc.js');
 var bch = require('./coins/bch.js');
 var eth = require('./coins/eth.js');
@@ -19,7 +20,7 @@ async function main() {
   var seed = crypto.randomBytes(32);
   
   var wallet;
-  if (['btc','btg','dash','dcr','doge','ltc','mona','qtum','rdd','zec'].indexOf(symbol) >= 0) {
+  if (['tr3b','btc','btg','dash','dcr','doge','ltc','mona','qtum','rdd','zec'].indexOf(symbol) >= 0) {
     wallet = btc.generateWallet(seed, symbol);
   } else if (['bch'].indexOf(symbol) >= 0) {
     wallet = bch.generateWallet(seed, symbol);
@@ -28,7 +29,7 @@ async function main() {
   } else if (['eos'].indexOf(symbol) >= 0) {
     wallet = eos.generateWallet(seed, symbol);
   } else {
-    console.log('Usage: paper-wallet [btc|bch|btg|dash|dcr|doge|eos|eth|etc|ltc|mona|qtum|rdd|zec]');
+    console.log('Usage: paper-wallet [tr3b|btc|bch|btg|dash|dcr|doge|eos|eth|etc|ltc|mona|qtum|rdd|zec]');
     return;
   }
 
