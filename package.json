@@ -1,59 +1,9 @@
 {
-  "name": "@CryptoLover705/npm-paper-wallet-updated",
-  "version": "1.0.8",
-  "description": "Generate paper wallet for bitcoin and altcoins with CLI.",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "name": "@cryptolover705/npm-paper-wallet-new",
+  "version": "1.0.0",
+  "description": "npm-paper-wallet-new",
   "main": "index.js",
-  "bin": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Paper Wallet",
-    "Astracoin",
-    "Beetlecoin",
-    "Bitcoin",
-    "Bitcoin Cash",
-    "Bitcoin Gold",
-    "Dash",
-    "Decred",
-    "EOS",
-    "Ethereum Classic",
-    "Ethereum",
-    "Dogecoin",
-    "Litecoin",
-    "Monacoin",
-    "Qtum",
-    "Reddcoin",
-    "Zcash",
-    "TR3B",
-    "BTC",
-    "BCH",
-    "BTG",
-    "DASH",
-    "DCR",
-    "DOGE",
-    "ETC",
-    "ETH",
-    "LTC",
-    "MONA",
-    "RDD",
-    "ZEC"
-  ],
-  "files": [
-    "index.js",
-    "coins"
-  ],
-  "repository" : {
-    "type" : "git",
-    "url": "ssh://git@github.com/CryptoLover705/npm-paper-wallet-updated.git",
-    "directory": "CryptoLover705/npm-paper-wallet-updated"
-  },
-  "bugs": {
-    "url": "https://github.com/CryptoLover705/npm-paper-wallet-updated/issues"
-  },
-  "homepage": "https://CryptoLover705.github.io/npm-paper-wallet-updated/",
-  "author": "CryptoLover705",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "bchaddrjs": "^0.2.2",
