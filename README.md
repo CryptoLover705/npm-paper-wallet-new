@@ -1,6 +1,6 @@
 # paper-wallet
 
-[![NPM version][npm-image]][npm-url][![Dependency Status](https://img.shields.io/david/harietqyun/paper-wallet.svg?style=flat-square)](https://david-dm.org/harietqyun/paper-wallet)[![Downloads][downloads-image]][downloads-url]
+[![NPM version][npm-image]][npm-url][![Dependency Status](https://img.shields.io/david/CryptoLover705/npm-paper-wallet.svg?style=flat-square)](https://david-dm.org/CryptoLover705/npm-paper-wallet)[![Downloads][downloads-image]][downloads-url]
 
 [npm-image]: https://img.shields.io/npm/v/paper-wallet.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/paper-wallet
@@ -10,6 +10,7 @@
 Generate paper wallet for bitcoin and altcoins with CLI.
 
 ## Supported Coins
+* Astracoin (TR3B)
 * Bitcoin (BTC)
 * Bitcoin Cash (BCH)
 * Bitcoin Gold (BTG)
@@ -32,7 +33,7 @@ npm install -g paper-wallet
 
 ## Usage
 ```bash
-paper-wallet [btc|bch|btg|dash|dcr|doge|eos|eth|ltc|mona|qtum|rdd|zec]
+paper-wallet [tr3b|btc|bch|btg|dash|dcr|doge|eos|eth|ltc|mona|qtum|rdd|zec]
 ```
 
 paper-wallet-[symbol]-[timestamp].pdf file will be generated in current folder for printing.
@@ -51,7 +52,15 @@ It's recommended to use an air-gapped computer for high value paper wallet gener
 
 ## Preview
 
-![alt text](https://raw.githubusercontent.com/harietqyun/paper-wallet/master/preview.png)
+![alt text](https://raw.githubusercontent.com/CryptoLover705/npm-paper-wallet/master/preview.png)
 
-## Donations
-BTC: 19uibExshDiqF8X2TBLaEiMK2WJ9j2xfAS
+### Donation Addresses
+* MCO - `0x50542A52B2d01c807dd18e8CD7Ee1d3a2670329b` 
+* CRO - `0x50542A52B2d01c807dd18e8CD7Ee1d3a2670329b`
+* ETH - `0x50542A52B2d01c807dd18e8CD7Ee1d3a2670329b`
+* BAT - `0x50542A52B2d01c807dd18e8CD7Ee1d3a2670329b`
+* USDC - `0x50542A52B2d01c807dd18e8CD7Ee1d3a2670329b`
+* USDT - `0x50542A52B2d01c807dd18e8CD7Ee1d3a2670329b`
+* BTC - `3DNVMDj4VQZb31t5LkmmDyw6dZqe35SwHd` 
+* BCH - `qrrele2fl4hm2c9vw5k845g5xjmvxlcu5gpv29qy2x`
+* LTC - `MKL4WSfmhQb6Kmqcy3iRvpy7jW7WXDi6D5` 
