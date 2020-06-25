@@ -65,3 +65,4 @@ It's recommended to use an air-gapped computer for high value paper wallet gener
 * BTC - `3DNVMDj4VQZb31t5LkmmDyw6dZqe35SwHd` 
 * BCH - `qrrele2fl4hm2c9vw5k845g5xjmvxlcu5gpv29qy2x`
 * LTC - `MKL4WSfmhQb6Kmqcy3iRvpy7jW7WXDi6D5` 
+ 
