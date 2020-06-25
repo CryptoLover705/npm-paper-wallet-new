@@ -44,14 +44,15 @@
     "index.js",
     "coins"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://github.com/CryptoLover705/npm-paper-wallet.git"
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/CryptoLover705/npm-paper-wallet-updated.git",
+    "directory": "CryptoLover705/npm-paper-wallet-updated"
   },
   "bugs": {
-    "url": "https://github.com/CryptoLover705/npm-paper-wallet/issues"
+    "url": "https://github.com/CryptoLover705/npm-paper-wallet-updated/issues"
   },
-  "homepage": "https://CryptoLover705.github.io/npr-paper-wallet/",
+  "homepage": "https://CryptoLover705.github.io/npm-paper-wallet-updated/",
   "author": "CryptoLover705",
   "license": "MIT",
   "dependencies": {
@@ -62,8 +63,7 @@
     "eosjs-ecc": "^4.0.4",
     "hdkey": "^1.1.0",
     "pdfkit": "^0.8.3",
-    "qr-image": "^3.2.0",
-    "temp": "^0.8.3",
-    "text-qrcode": "^0.1.0"
+    "qr-image": "3.2.0",
+    "temp": "^0.8.3"
   }
 }
