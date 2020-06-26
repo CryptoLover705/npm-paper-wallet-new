@@ -1,7 +1,8 @@
 # paper-wallet
 
 
-[Version]: ![GitHub package.json version](https://img.shields.io/github/package-json/v/CryptoLover705/npm-paper-wallet-new)
+* Version: ![GitHub package.json version](https://img.shields.io/github/package-json/v/CryptoLover705/npm-paper-wallet-new)
+
 
 
 Generate paper wallet for bitcoin and altcoins with CLI.
