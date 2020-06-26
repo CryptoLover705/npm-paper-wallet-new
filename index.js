@@ -20,10 +20,14 @@ async function main() {
   var seed = crypto.randomBytes(32);
   
   var wallet;
-  if (['tr3b','beet','btc','btg','dash','dcr','doge','ltc','mona','qtum','rdd','zec'].indexOf(symbol) >= 0) {
+  if (['btc','btg','dash','dcr','doge','ltc','mona','qtum','rdd','zec'].indexOf(symbol) >= 0) {
     wallet = btc.generateWallet(seed, symbol);
   } else if (['bch'].indexOf(symbol) >= 0) {
     wallet = bch.generateWallet(seed, symbol);
+  } else if (['tr3b'].indexOf(symbol) >= 0) {
+    wallet = tr3b.generateWallet(seed, symbol); 
+  } else if (['beet'].indexOf(symbol) >= 0) {
+    wallet = beet.generateWallet(seed, symbol);   
   } else if (['etc','eth'].indexOf(symbol) >= 0) {
     wallet = eth.generateWallet(seed, symbol);
   } else if (['eos'].indexOf(symbol) >= 0) {
