@@ -24,6 +24,7 @@ Generate paper wallet for bitcoin and altcoins with CLI.
 * Monacoin (MONA)
 * Qtum (QTUM)
 * Reddcoin (RDD)
+* Sugarchain (SUGAR)
 * Zcash (ZEC)
 
 ## Installation
