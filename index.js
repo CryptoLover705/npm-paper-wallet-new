@@ -7,6 +7,7 @@ var qrImg = require('qr-image');
 var temp = require('temp');
 var crypto = require('crypto');
 var tr3b = require('./coins/tr3b.js');
+var beet = require('./coins/beet.js');
 var btc = require('./coins/btc.js');
 var bch = require('./coins/bch.js');
 var eth = require('./coins/eth.js');
