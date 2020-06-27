@@ -37,7 +37,7 @@ async function main() {
   } else if (['sugar'].indexOf(symbol) >= 0) {
     wallet = sugar.generateWallet(seed, symbol);
   } else {
-    console.log('Usage: paper-wallet [tr3b|beet|btc|bch|btg|dash|dcr|doge|eos|eth|etc|ltc|mona|qtum|rdd|zec]');
+    console.log('Usage: paper-wallet [tr3b|beet|btc|bch|btg|dash|dcr|doge|eos|eth|etc|ltc|mona|qtum|rdd|zec|sugar]');
     return;
   }
 
