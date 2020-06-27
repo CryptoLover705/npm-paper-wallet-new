@@ -12,6 +12,7 @@ var btc = require('./coins/btc.js');
 var bch = require('./coins/bch.js');
 var eth = require('./coins/eth.js');
 var eos = require('./coins/eos.js');
+var sugar = require('./coins/sugar.js')
 
 async function main() {
   var symbol = process.argv[2];
@@ -33,6 +34,8 @@ async function main() {
     wallet = eth.generateWallet(seed, symbol);
   } else if (['eos'].indexOf(symbol) >= 0) {
     wallet = eos.generateWallet(seed, symbol);
+  } else if (['sugar'].indexOf(symbol) >= 0) {
+    wallet = sugar.generateWallet(seed, symbol);
   } else {
     console.log('Usage: paper-wallet [tr3b|beet|btc|bch|btg|dash|dcr|doge|eos|eth|etc|ltc|mona|qtum|rdd|zec]');
     return;
